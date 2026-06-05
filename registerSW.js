@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/StickerTracker-Public/sw.js', { scope: '/StickerTracker-Public/' })})}
